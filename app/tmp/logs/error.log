@@ -1,0 +1,1389 @@
+2019-09-25 11:11:28 Error: [ParseError] syntax error, unexpected '.'
+Request URL: /cakephp/sinhviens/index/sort:Sinhvien.id/direction:desc
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/html/c...')
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SinhviensController), Object(CakeRequest))
+#5 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-25 11:16:30 Error: [Error] Call to undefined method View::extends()
+Request URL: /cakephp/sinhviens/index/sort:Sinhvien.id/direction:desc
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(971): include()
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#2 /var/www/html/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/html/c...')
+#3 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SinhviensController), Object(CakeRequest))
+#6 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2019-09-25 11:16:48 Error: [Error] Call to undefined method View::extends()
+Request URL: /cakephp/sinhviens/index/sort:Sinhvien.id/direction:desc
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(971): include()
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#2 /var/www/html/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/html/c...')
+#3 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SinhviensController), Object(CakeRequest))
+#6 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2019-09-25 11:22:25 Error: [MissingViewException] View file "Layouts/menu.ctp.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts/menu.ctp.ctp',
+)
+Request URL: /cakephp/sinhviens/index/sort:Sinhvien.id/direction:desc
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(732): View->_getViewFileName('Layouts/menu.ct...')
+#1 /var/www/html/cakephp/app/View/Sinhviens/index.ctp(13): View->extend('/Layouts/menu.c...')
+#2 /var/www/html/cakephp/lib/Cake/View/View.php(971): include('/var/www/html/c...')
+#3 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#4 /var/www/html/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/html/c...')
+#5 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#6 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#7 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SinhviensController), Object(CakeRequest))
+#8 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-09-25 12:44:51 Error: [MissingViewException] View file "Layouts/menu.ctp.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts/menu.ctp.ctp',
+)
+Request URL: /cakephp/sinhviens/index/sort:Sinhvien.id/direction:desc
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(732): View->_getViewFileName('Layouts/menu.ct...')
+#1 /var/www/html/cakephp/app/View/Sinhviens/index.ctp(13): View->extend('/Layouts/menu.c...')
+#2 /var/www/html/cakephp/lib/Cake/View/View.php(971): include('/var/www/html/c...')
+#3 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#4 /var/www/html/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/html/c...')
+#5 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#6 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#7 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SinhviensController), Object(CakeRequest))
+#8 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-09-25 12:44:54 Error: [MissingViewException] View file "Layouts/menu.ctp.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts/menu.ctp.ctp',
+)
+Request URL: /cakephp/sinhviens/index/sort:Sinhvien.id/direction:desc
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(732): View->_getViewFileName('Layouts/menu.ct...')
+#1 /var/www/html/cakephp/app/View/Sinhviens/index.ctp(13): View->extend('/Layouts/menu.c...')
+#2 /var/www/html/cakephp/lib/Cake/View/View.php(971): include('/var/www/html/c...')
+#3 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#4 /var/www/html/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/html/c...')
+#5 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#6 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#7 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SinhviensController), Object(CakeRequest))
+#8 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-09-25 13:23:22 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/admin
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-09-25 13:24:53 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/admin
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-09-25 13:24:53 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/admin
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-09-25 13:26:52 Error: Fatal Error (64): Cannot redeclare UsersController::admin_login() in [/var/www/html/cakephp/app/Controller/UsersController.php, line 23]
+2019-09-25 13:26:52 Error: [FatalErrorException] Cannot redeclare UsersController::admin_login()
+Request URL: /cakephp/admin
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/c...', 23)
+#1 /var/www/html/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/c...', 23, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-09-25 13:27:04 Error: Fatal Error (64): Cannot redeclare UsersController::admin_login() in [/var/www/html/cakephp/app/Controller/UsersController.php, line 23]
+2019-09-25 13:27:04 Error: [FatalErrorException] Cannot redeclare UsersController::admin_login()
+Request URL: /cakephp/admin
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/c...', 23)
+#1 /var/www/html/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/c...', 23, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-09-25 13:27:39 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /cakephp/admin
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-09-25 13:28:02 Error: [MissingLayoutException] Layout file "Layouts/admin.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts/admin.ctp',
+)
+Request URL: /cakephp/admin
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(514): View->_getLayoutFileName('admin')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('', 'admin')
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-25 13:28:51 Error: [MissingLayoutException] Layout file "Layouts/admin.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts/admin.ctp',
+)
+Request URL: /cakephp/admin
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(514): View->_getLayoutFileName('admin')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('', 'admin')
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-25 13:28:51 Error: [MissingLayoutException] Layout file "Layouts/admin.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts/admin.ctp',
+)
+Request URL: /cakephp/admin
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(514): View->_getLayoutFileName('admin')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('', 'admin')
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-25 13:28:51 Error: [MissingLayoutException] Layout file "Layouts/admin.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts/admin.ctp',
+)
+Request URL: /cakephp/admin
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(514): View->_getLayoutFileName('admin')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('', 'admin')
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-25 13:28:51 Error: [MissingLayoutException] Layout file "Layouts/admin.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts/admin.ctp',
+)
+Request URL: /cakephp/admin
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(514): View->_getLayoutFileName('admin')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('', 'admin')
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-25 13:29:30 Error: [MissingLayoutException] Layout file "Layouts/admin.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts/admin.ctp',
+)
+Request URL: /cakephp/admin
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(514): View->_getLayoutFileName('admin')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('', 'admin')
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-25 13:29:31 Error: [MissingLayoutException] Layout file "Layouts/admin.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts/admin.ctp',
+)
+Request URL: /cakephp/admin
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(514): View->_getLayoutFileName('admin')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('', 'admin')
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-25 13:29:31 Error: [MissingLayoutException] Layout file "Layouts/admin.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts/admin.ctp',
+)
+Request URL: /cakephp/admin
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(514): View->_getLayoutFileName('admin')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('', 'admin')
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-25 13:29:31 Error: [MissingLayoutException] Layout file "Layouts/admin.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts/admin.ctp',
+)
+Request URL: /cakephp/admin
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(514): View->_getLayoutFileName('admin')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('', 'admin')
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-25 13:37:04 Error: [MissingLayoutException] Layout file "Layouts/admin.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts/admin.ctp',
+)
+Request URL: /cakephp/admin
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(514): View->_getLayoutFileName('admin')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('', 'admin')
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-25 13:37:11 Error: [MissingLayoutException] Layout file "Layouts/admin.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts/admin.ctp',
+)
+Request URL: /cakephp/admin
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(514): View->_getLayoutFileName('admin')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('', 'admin')
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-25 13:37:11 Error: [MissingLayoutException] Layout file "Layouts/admin.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts/admin.ctp',
+)
+Request URL: /cakephp/admin
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(514): View->_getLayoutFileName('admin')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('', 'admin')
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-25 13:37:11 Error: [MissingLayoutException] Layout file "Layouts/admin.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts/admin.ctp',
+)
+Request URL: /cakephp/admin
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(514): View->_getLayoutFileName('admin')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('', 'admin')
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-25 13:37:29 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-09-25 13:37:30 Error: [MissingLayoutException] Layout file "Layouts/admin.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts/admin.ctp',
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(514): View->_getLayoutFileName('admin')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('', 'admin')
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-25 13:39:08 Error: [MissingLayoutException] Layout file "Layouts/admin.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts/admin.ctp',
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(514): View->_getLayoutFileName('admin')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('', 'admin')
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-25 13:58:38 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(858): HelperCollection->__isset('Auth')
+#2 /var/www/html/cakephp/app/View/Layouts/admin.ctp(28): View->__get('Auth')
+#3 /var/www/html/cakephp/lib/Cake/View/View.php(971): include('/var/www/html/c...')
+#4 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#5 /var/www/html/cakephp/lib/Cake/View/View.php(546): View->_render('/var/www/html/c...')
+#6 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('<!DOCTYPE html>...', 'admin')
+#7 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-09-25 13:59:02 Error: [ParseError] syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION)
+Request URL: /cakephp/users
+Stack Trace:
+#0 [internal function]: App::load('AppHelper')
+#1 /var/www/html/cakephp/lib/Cake/View/Helper/SessionHelper.php(30): spl_autoload_call('AppHelper')
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(567): include('/var/www/html/c...')
+#3 [internal function]: App::load('SessionHelper')
+#4 [internal function]: spl_autoload_call('SessionHelper')
+#5 /var/www/html/cakephp/lib/Cake/View/HelperCollection.php(130): class_exists('SessionHelper')
+#6 /var/www/html/cakephp/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Session')
+#7 /var/www/html/cakephp/lib/Cake/View/View.php(858): HelperCollection->__isset('Session')
+#8 /var/www/html/cakephp/app/View/Users/login.ctp(15): View->__get('Session')
+#9 /var/www/html/cakephp/lib/Cake/View/View.php(971): include('/var/www/html/c...')
+#10 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#11 /var/www/html/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/html/c...')
+#12 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#13 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#14 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2019-09-25 13:59:02 Error: Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+2019-09-25 13:59:02 Error: [FatalErrorException] Exception thrown without a stack frame
+Request URL: /cakephp/users
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /var/www/html/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-09-25 13:57:40 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(858): HelperCollection->__isset('Auth')
+#2 /var/www/html/cakephp/app/View/Layouts/admin.ctp(28): View->__get('Auth')
+#3 /var/www/html/cakephp/lib/Cake/View/View.php(971): include('/var/www/html/c...')
+#4 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#5 /var/www/html/cakephp/lib/Cake/View/View.php(546): View->_render('/var/www/html/c...')
+#6 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('<!DOCTYPE html>...', 'admin')
+#7 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-09-25 13:58:19 Error: Fatal Error (1): Class 'AppHelper' not found in [/var/www/html/cakephp/app/View/Helper/AppHelper.php, line 32]
+2019-09-25 13:58:19 Error: [FatalErrorException] Class 'AppHelper' not found
+Request URL: /cakephp/users
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'AppHelpe...', '/var/www/html/c...', 32)
+#1 /var/www/html/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError(1, 'Class 'AppHelpe...', '/var/www/html/c...', 32, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-09-25 13:58:34 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(858): HelperCollection->__isset('Auth')
+#2 /var/www/html/cakephp/app/View/Layouts/admin.ctp(28): View->__get('Auth')
+#3 /var/www/html/cakephp/lib/Cake/View/View.php(971): include('/var/www/html/c...')
+#4 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#5 /var/www/html/cakephp/lib/Cake/View/View.php(546): View->_render('/var/www/html/c...')
+#6 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('<!DOCTYPE html>...', 'admin')
+#7 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-09-25 13:58:44 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(858): HelperCollection->__isset('Auth')
+#2 /var/www/html/cakephp/app/View/Layouts/admin.ctp(28): View->__get('Auth')
+#3 /var/www/html/cakephp/lib/Cake/View/View.php(971): include('/var/www/html/c...')
+#4 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#5 /var/www/html/cakephp/lib/Cake/View/View.php(546): View->_render('/var/www/html/c...')
+#6 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('<!DOCTYPE html>...', 'admin')
+#7 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-09-25 13:58:45 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(858): HelperCollection->__isset('Auth')
+#2 /var/www/html/cakephp/app/View/Layouts/admin.ctp(28): View->__get('Auth')
+#3 /var/www/html/cakephp/lib/Cake/View/View.php(971): include('/var/www/html/c...')
+#4 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#5 /var/www/html/cakephp/lib/Cake/View/View.php(546): View->_render('/var/www/html/c...')
+#6 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('<!DOCTYPE html>...', 'admin')
+#7 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-09-25 13:58:49 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/users?_method=POST&data%5BUser%5D%5Busername%5D=admin123&data%5BUser%5D%5Bpassword%5D=123456
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(858): HelperCollection->__isset('Auth')
+#2 /var/www/html/cakephp/app/View/Layouts/admin.ctp(28): View->__get('Auth')
+#3 /var/www/html/cakephp/lib/Cake/View/View.php(971): include('/var/www/html/c...')
+#4 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#5 /var/www/html/cakephp/lib/Cake/View/View.php(546): View->_render('/var/www/html/c...')
+#6 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('<!DOCTYPE html>...', 'admin')
+#7 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-09-25 13:58:53 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(858): HelperCollection->__isset('Auth')
+#2 /var/www/html/cakephp/app/View/Layouts/admin.ctp(28): View->__get('Auth')
+#3 /var/www/html/cakephp/lib/Cake/View/View.php(971): include('/var/www/html/c...')
+#4 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#5 /var/www/html/cakephp/lib/Cake/View/View.php(546): View->_render('/var/www/html/c...')
+#6 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('<!DOCTYPE html>...', 'admin')
+#7 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-09-25 13:58:59 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(858): HelperCollection->__isset('Auth')
+#2 /var/www/html/cakephp/app/View/Layouts/admin.ctp(28): View->__get('Auth')
+#3 /var/www/html/cakephp/lib/Cake/View/View.php(971): include('/var/www/html/c...')
+#4 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#5 /var/www/html/cakephp/lib/Cake/View/View.php(546): View->_render('/var/www/html/c...')
+#6 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('<!DOCTYPE html>...', 'admin')
+#7 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-09-25 14:00:59 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(858): HelperCollection->__isset('Auth')
+#2 /var/www/html/cakephp/app/View/Layouts/admin.ctp(28): View->__get('Auth')
+#3 /var/www/html/cakephp/lib/Cake/View/View.php(971): include('/var/www/html/c...')
+#4 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#5 /var/www/html/cakephp/lib/Cake/View/View.php(546): View->_render('/var/www/html/c...')
+#6 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('<!DOCTYPE html>...', 'admin')
+#7 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-09-25 14:02:12 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/admin
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-09-25 14:04:28 Error: [ParseError] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(546): View->_render('/var/www/html/c...')
+#2 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('<!DOCTYPE html>...', 'admin')
+#3 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2019-09-25 14:04:44 Error: [ParseError] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(546): View->_render('/var/www/html/c...')
+#2 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('<!DOCTYPE html>...', 'admin')
+#3 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2019-09-25 14:04:55 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(858): HelperCollection->__isset('Auth')
+#2 /var/www/html/cakephp/app/View/Layouts/admin.ctp(28): View->__get('Auth')
+#3 /var/www/html/cakephp/lib/Cake/View/View.php(971): include('/var/www/html/c...')
+#4 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#5 /var/www/html/cakephp/lib/Cake/View/View.php(546): View->_render('/var/www/html/c...')
+#6 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('<!DOCTYPE html>...', 'admin')
+#7 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-09-25 14:05:13 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(858): HelperCollection->__isset('Auth')
+#2 /var/www/html/cakephp/app/View/Layouts/admin.ctp(28): View->__get('Auth')
+#3 /var/www/html/cakephp/lib/Cake/View/View.php(971): include('/var/www/html/c...')
+#4 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#5 /var/www/html/cakephp/lib/Cake/View/View.php(546): View->_render('/var/www/html/c...')
+#6 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('<!DOCTYPE html>...', 'admin')
+#7 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-09-25 14:05:13 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(858): HelperCollection->__isset('Auth')
+#2 /var/www/html/cakephp/app/View/Layouts/admin.ctp(28): View->__get('Auth')
+#3 /var/www/html/cakephp/lib/Cake/View/View.php(971): include('/var/www/html/c...')
+#4 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#5 /var/www/html/cakephp/lib/Cake/View/View.php(546): View->_render('/var/www/html/c...')
+#6 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('<!DOCTYPE html>...', 'admin')
+#7 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-09-25 14:05:14 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(858): HelperCollection->__isset('Auth')
+#2 /var/www/html/cakephp/app/View/Layouts/admin.ctp(28): View->__get('Auth')
+#3 /var/www/html/cakephp/lib/Cake/View/View.php(971): include('/var/www/html/c...')
+#4 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#5 /var/www/html/cakephp/lib/Cake/View/View.php(546): View->_render('/var/www/html/c...')
+#6 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('<!DOCTYPE html>...', 'admin')
+#7 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-09-25 14:07:09 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(858): HelperCollection->__isset('Auth')
+#2 /var/www/html/cakephp/app/View/Layouts/admin.ctp(28): View->__get('Auth')
+#3 /var/www/html/cakephp/lib/Cake/View/View.php(971): include('/var/www/html/c...')
+#4 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#5 /var/www/html/cakephp/lib/Cake/View/View.php(546): View->_render('/var/www/html/c...')
+#6 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('<!DOCTYPE html>...', 'admin')
+#7 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-09-25 14:07:09 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(858): HelperCollection->__isset('Auth')
+#2 /var/www/html/cakephp/app/View/Layouts/admin.ctp(28): View->__get('Auth')
+#3 /var/www/html/cakephp/lib/Cake/View/View.php(971): include('/var/www/html/c...')
+#4 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#5 /var/www/html/cakephp/lib/Cake/View/View.php(546): View->_render('/var/www/html/c...')
+#6 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('<!DOCTYPE html>...', 'admin')
+#7 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'admin')
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-09-25 14:50:02 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/admin
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-09-25 15:09:09 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/admin
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-09-25 15:09:44 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-09-25 15:14:40 Error: [MissingActionException] Action UsersController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'add',
+)
+Request URL: /cakephp/users/add
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-09-25 15:15:14 Error: [MissingActionException] Action UsersController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'add',
+)
+Request URL: /cakephp/users/add
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-09-25 15:15:59 Error: [ParseError] syntax error, unexpected 'var' (T_VAR)
+Request URL: /cakephp/admin
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-25 15:35:28 Error: [ParseError] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /cakephp/admin
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-25 15:37:21 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(SinhviensController))
+#1 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(505): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(467): AuthComponent->constructAuthorize()
+#3 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(311): AuthComponent->isAuthorized(Array)
+#4 /var/www/html/cakephp/lib/Cake/Utility/ObjectCollection.php(129): AuthComponent->startup(Object(SinhviensController))
+#5 /var/www/html/cakephp/lib/Cake/Event/CakeEventManager.php(244): ObjectCollection->trigger('startup')
+#6 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(683): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SinhviensController), Object(CakeRequest))
+#9 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-09-25 15:39:13 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(SinhviensController))
+#1 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(505): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(467): AuthComponent->constructAuthorize()
+#3 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(311): AuthComponent->isAuthorized(Array)
+#4 /var/www/html/cakephp/lib/Cake/Utility/ObjectCollection.php(129): AuthComponent->startup(Object(SinhviensController))
+#5 /var/www/html/cakephp/lib/Cake/Event/CakeEventManager.php(244): ObjectCollection->trigger('startup')
+#6 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(683): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SinhviensController), Object(CakeRequest))
+#9 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-09-25 15:39:14 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(SinhviensController))
+#1 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(505): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(467): AuthComponent->constructAuthorize()
+#3 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(311): AuthComponent->isAuthorized(Array)
+#4 /var/www/html/cakephp/lib/Cake/Utility/ObjectCollection.php(129): AuthComponent->startup(Object(SinhviensController))
+#5 /var/www/html/cakephp/lib/Cake/Event/CakeEventManager.php(244): ObjectCollection->trigger('startup')
+#6 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(683): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SinhviensController), Object(CakeRequest))
+#9 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-09-25 15:39:14 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(SinhviensController))
+#1 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(505): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(467): AuthComponent->constructAuthorize()
+#3 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(311): AuthComponent->isAuthorized(Array)
+#4 /var/www/html/cakephp/lib/Cake/Utility/ObjectCollection.php(129): AuthComponent->startup(Object(SinhviensController))
+#5 /var/www/html/cakephp/lib/Cake/Event/CakeEventManager.php(244): ObjectCollection->trigger('startup')
+#6 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(683): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SinhviensController), Object(CakeRequest))
+#9 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-09-25 15:39:14 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(SinhviensController))
+#1 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(505): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(467): AuthComponent->constructAuthorize()
+#3 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(311): AuthComponent->isAuthorized(Array)
+#4 /var/www/html/cakephp/lib/Cake/Utility/ObjectCollection.php(129): AuthComponent->startup(Object(SinhviensController))
+#5 /var/www/html/cakephp/lib/Cake/Event/CakeEventManager.php(244): ObjectCollection->trigger('startup')
+#6 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(683): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SinhviensController), Object(CakeRequest))
+#9 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-09-25 15:39:14 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(SinhviensController))
+#1 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(505): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(467): AuthComponent->constructAuthorize()
+#3 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(311): AuthComponent->isAuthorized(Array)
+#4 /var/www/html/cakephp/lib/Cake/Utility/ObjectCollection.php(129): AuthComponent->startup(Object(SinhviensController))
+#5 /var/www/html/cakephp/lib/Cake/Event/CakeEventManager.php(244): ObjectCollection->trigger('startup')
+#6 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(683): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SinhviensController), Object(CakeRequest))
+#9 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-09-25 15:39:15 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(SinhviensController))
+#1 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(505): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(467): AuthComponent->constructAuthorize()
+#3 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(311): AuthComponent->isAuthorized(Array)
+#4 /var/www/html/cakephp/lib/Cake/Utility/ObjectCollection.php(129): AuthComponent->startup(Object(SinhviensController))
+#5 /var/www/html/cakephp/lib/Cake/Event/CakeEventManager.php(244): ObjectCollection->trigger('startup')
+#6 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(683): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SinhviensController), Object(CakeRequest))
+#9 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-09-25 15:39:21 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(SinhviensController))
+#1 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(505): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(467): AuthComponent->constructAuthorize()
+#3 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(311): AuthComponent->isAuthorized(Array)
+#4 /var/www/html/cakephp/lib/Cake/Utility/ObjectCollection.php(129): AuthComponent->startup(Object(SinhviensController))
+#5 /var/www/html/cakephp/lib/Cake/Event/CakeEventManager.php(244): ObjectCollection->trigger('startup')
+#6 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(683): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SinhviensController), Object(CakeRequest))
+#9 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-09-25 15:39:27 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(SinhviensController))
+#1 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(505): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(467): AuthComponent->constructAuthorize()
+#3 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(311): AuthComponent->isAuthorized(Array)
+#4 /var/www/html/cakephp/lib/Cake/Utility/ObjectCollection.php(129): AuthComponent->startup(Object(SinhviensController))
+#5 /var/www/html/cakephp/lib/Cake/Event/CakeEventManager.php(244): ObjectCollection->trigger('startup')
+#6 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(683): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SinhviensController), Object(CakeRequest))
+#9 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-09-25 15:39:27 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(SinhviensController))
+#1 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(505): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(467): AuthComponent->constructAuthorize()
+#3 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(311): AuthComponent->isAuthorized(Array)
+#4 /var/www/html/cakephp/lib/Cake/Utility/ObjectCollection.php(129): AuthComponent->startup(Object(SinhviensController))
+#5 /var/www/html/cakephp/lib/Cake/Event/CakeEventManager.php(244): ObjectCollection->trigger('startup')
+#6 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(683): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SinhviensController), Object(CakeRequest))
+#9 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-09-25 15:39:27 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(SinhviensController))
+#1 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(505): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(467): AuthComponent->constructAuthorize()
+#3 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(311): AuthComponent->isAuthorized(Array)
+#4 /var/www/html/cakephp/lib/Cake/Utility/ObjectCollection.php(129): AuthComponent->startup(Object(SinhviensController))
+#5 /var/www/html/cakephp/lib/Cake/Event/CakeEventManager.php(244): ObjectCollection->trigger('startup')
+#6 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(683): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SinhviensController), Object(CakeRequest))
+#9 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-09-25 15:39:51 Error: [ParseError] syntax error, unexpected '}', expecting end of file
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 [internal function]: App::load('AppController')
+#1 /var/www/html/cakephp/app/Controller/SinhviensController.php(3): spl_autoload_call('AppController')
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(567): include('/var/www/html/c...')
+#3 [internal function]: App::load('SinhviensContro...')
+#4 [internal function]: spl_autoload_call('SinhviensContro...')
+#5 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists('SinhviensContro...')
+#6 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#7 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-09-25 15:39:51 Error: Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+2019-09-25 15:39:51 Error: [FatalErrorException] Exception thrown without a stack frame
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /var/www/html/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-09-25 15:39:57 Error: [ParseError] syntax error, unexpected '}', expecting end of file
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 [internal function]: App::load('AppController')
+#1 /var/www/html/cakephp/app/Controller/SinhviensController.php(3): spl_autoload_call('AppController')
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(547): include('/var/www/html/c...')
+#3 [internal function]: App::load('SinhviensContro...')
+#4 [internal function]: spl_autoload_call('SinhviensContro...')
+#5 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists('SinhviensContro...')
+#6 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#7 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-09-25 15:39:57 Error: Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+2019-09-25 15:39:57 Error: [FatalErrorException] Exception thrown without a stack frame
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /var/www/html/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-09-25 15:41:06 Error: [ParseError] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /cakephp/admin
+Stack Trace:
+#0 [internal function]: App::load('AppController')
+#1 /var/www/html/cakephp/app/Controller/UsersController.php(2): spl_autoload_call('AppController')
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(567): include('/var/www/html/c...')
+#3 [internal function]: App::load('UsersController')
+#4 [internal function]: spl_autoload_call('UsersController')
+#5 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#6 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#7 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-09-25 15:41:06 Error: Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+2019-09-25 15:41:06 Error: [FatalErrorException] Exception thrown without a stack frame
+Request URL: /cakephp/admin
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /var/www/html/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-09-25 15:41:18 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(SinhviensController))
+#1 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(505): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(467): AuthComponent->constructAuthorize()
+#3 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(311): AuthComponent->isAuthorized(Array)
+#4 /var/www/html/cakephp/lib/Cake/Utility/ObjectCollection.php(129): AuthComponent->startup(Object(SinhviensController))
+#5 /var/www/html/cakephp/lib/Cake/Event/CakeEventManager.php(244): ObjectCollection->trigger('startup')
+#6 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(683): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SinhviensController), Object(CakeRequest))
+#9 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-09-25 15:41:18 Error: Fatal Error (1): Cannot redeclare isAuthorized() (previously declared in /var/www/html/cakephp/app/Controller/AppController.php:63) in [/var/www/html/cakephp/app/Controller/AppController.php, line 61]
+2019-09-25 15:41:18 Error: [FatalErrorException] Cannot redeclare isAuthorized() (previously declared in /var/www/html/cakephp/app/Controller/AppController.php:63)
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Cannot redeclar...', '/var/www/html/c...', 61)
+#1 /var/www/html/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError(1, 'Cannot redeclar...', '/var/www/html/c...', 61, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-09-25 15:41:43 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(SinhviensController))
+#1 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(505): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(467): AuthComponent->constructAuthorize()
+#3 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(311): AuthComponent->isAuthorized(Array)
+#4 /var/www/html/cakephp/lib/Cake/Utility/ObjectCollection.php(129): AuthComponent->startup(Object(SinhviensController))
+#5 /var/www/html/cakephp/lib/Cake/Event/CakeEventManager.php(244): ObjectCollection->trigger('startup')
+#6 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(683): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SinhviensController), Object(CakeRequest))
+#9 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-09-25 15:41:43 Error: Fatal Error (1): Cannot redeclare isAuthorized() (previously declared in /var/www/html/cakephp/app/Controller/AppController.php:63) in [/var/www/html/cakephp/app/Controller/AppController.php, line 61]
+2019-09-25 15:41:43 Error: [FatalErrorException] Cannot redeclare isAuthorized() (previously declared in /var/www/html/cakephp/app/Controller/AppController.php:63)
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Cannot redeclar...', '/var/www/html/c...', 61)
+#1 /var/www/html/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError(1, 'Cannot redeclar...', '/var/www/html/c...', 61, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-09-25 15:41:43 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(SinhviensController))
+#1 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(505): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(467): AuthComponent->constructAuthorize()
+#3 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(311): AuthComponent->isAuthorized(Array)
+#4 /var/www/html/cakephp/lib/Cake/Utility/ObjectCollection.php(129): AuthComponent->startup(Object(SinhviensController))
+#5 /var/www/html/cakephp/lib/Cake/Event/CakeEventManager.php(244): ObjectCollection->trigger('startup')
+#6 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(683): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SinhviensController), Object(CakeRequest))
+#9 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-09-25 15:41:43 Error: Fatal Error (1): Cannot redeclare isAuthorized() (previously declared in /var/www/html/cakephp/app/Controller/AppController.php:63) in [/var/www/html/cakephp/app/Controller/AppController.php, line 61]
+2019-09-25 15:41:43 Error: [FatalErrorException] Cannot redeclare isAuthorized() (previously declared in /var/www/html/cakephp/app/Controller/AppController.php:63)
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Cannot redeclar...', '/var/www/html/c...', 61)
+#1 /var/www/html/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError(1, 'Cannot redeclar...', '/var/www/html/c...', 61, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-09-25 15:41:43 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(SinhviensController))
+#1 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(505): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(467): AuthComponent->constructAuthorize()
+#3 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(311): AuthComponent->isAuthorized(Array)
+#4 /var/www/html/cakephp/lib/Cake/Utility/ObjectCollection.php(129): AuthComponent->startup(Object(SinhviensController))
+#5 /var/www/html/cakephp/lib/Cake/Event/CakeEventManager.php(244): ObjectCollection->trigger('startup')
+#6 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(683): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SinhviensController), Object(CakeRequest))
+#9 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-09-25 15:41:43 Error: Fatal Error (1): Cannot redeclare isAuthorized() (previously declared in /var/www/html/cakephp/app/Controller/AppController.php:63) in [/var/www/html/cakephp/app/Controller/AppController.php, line 61]
+2019-09-25 15:41:43 Error: [FatalErrorException] Cannot redeclare isAuthorized() (previously declared in /var/www/html/cakephp/app/Controller/AppController.php:63)
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Cannot redeclar...', '/var/www/html/c...', 61)
+#1 /var/www/html/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError(1, 'Cannot redeclar...', '/var/www/html/c...', 61, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-09-25 15:41:43 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(SinhviensController))
+#1 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(505): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(467): AuthComponent->constructAuthorize()
+#3 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(311): AuthComponent->isAuthorized(Array)
+#4 /var/www/html/cakephp/lib/Cake/Utility/ObjectCollection.php(129): AuthComponent->startup(Object(SinhviensController))
+#5 /var/www/html/cakephp/lib/Cake/Event/CakeEventManager.php(244): ObjectCollection->trigger('startup')
+#6 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(683): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SinhviensController), Object(CakeRequest))
+#9 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-09-25 15:41:43 Error: Fatal Error (1): Cannot redeclare isAuthorized() (previously declared in /var/www/html/cakephp/app/Controller/AppController.php:63) in [/var/www/html/cakephp/app/Controller/AppController.php, line 61]
+2019-09-25 15:41:43 Error: [FatalErrorException] Cannot redeclare isAuthorized() (previously declared in /var/www/html/cakephp/app/Controller/AppController.php:63)
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Cannot redeclar...', '/var/www/html/c...', 61)
+#1 /var/www/html/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError(1, 'Cannot redeclar...', '/var/www/html/c...', 61, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-09-25 15:47:48 Error: [ParseError] syntax error, unexpected 'email' (T_STRING), expecting ']'
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(1224): View->_render('/var/www/html/c...', Array)
+#2 /var/www/html/cakephp/lib/Cake/View/View.php(418): View->_renderElement('/var/www/html/c...', Array, Array)
+#3 /var/www/html/cakephp/app/View/Layouts/default.ctp(28): View->element('header')
+#4 /var/www/html/cakephp/lib/Cake/View/View.php(971): include('/var/www/html/c...')
+#5 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#6 /var/www/html/cakephp/lib/Cake/View/View.php(546): View->_render('/var/www/html/c...')
+#7 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('<!DOCTYPE html>...', 'default')
+#8 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'default')
+#9 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#10 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SinhviensController), Object(CakeRequest))
+#11 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2019-09-25 15:47:48 Error: Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+2019-09-25 15:47:48 Error: [FatalErrorException] Exception thrown without a stack frame
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /var/www/html/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-09-25 15:48:00 Error: [ParseError] syntax error, unexpected 'endif' (T_ENDIF), expecting end of file
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(1224): View->_render('/var/www/html/c...', Array)
+#2 /var/www/html/cakephp/lib/Cake/View/View.php(418): View->_renderElement('/var/www/html/c...', Array, Array)
+#3 /var/www/html/cakephp/app/View/Layouts/default.ctp(28): View->element('header')
+#4 /var/www/html/cakephp/lib/Cake/View/View.php(971): include('/var/www/html/c...')
+#5 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#6 /var/www/html/cakephp/lib/Cake/View/View.php(546): View->_render('/var/www/html/c...')
+#7 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('<!DOCTYPE html>...', 'default')
+#8 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'default')
+#9 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#10 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SinhviensController), Object(CakeRequest))
+#11 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2019-09-25 15:48:00 Error: Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+2019-09-25 15:48:00 Error: [FatalErrorException] Exception thrown without a stack frame
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /var/www/html/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-09-25 15:48:27 Error: [ParseError] syntax error, unexpected 'endif' (T_ENDIF), expecting end of file
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(1224): View->_render('/var/www/html/c...', Array)
+#2 /var/www/html/cakephp/lib/Cake/View/View.php(418): View->_renderElement('/var/www/html/c...', Array, Array)
+#3 /var/www/html/cakephp/app/View/Layouts/default.ctp(28): View->element('header')
+#4 /var/www/html/cakephp/lib/Cake/View/View.php(971): include('/var/www/html/c...')
+#5 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#6 /var/www/html/cakephp/lib/Cake/View/View.php(546): View->_render('/var/www/html/c...')
+#7 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('<!DOCTYPE html>...', 'default')
+#8 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'default')
+#9 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#10 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SinhviensController), Object(CakeRequest))
+#11 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2019-09-25 15:48:27 Error: Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+2019-09-25 15:48:27 Error: [FatalErrorException] Exception thrown without a stack frame
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /var/www/html/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-09-25 15:51:40 Error: [ParseError] syntax error, unexpected '?>', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(1224): View->_render('/var/www/html/c...', Array)
+#2 /var/www/html/cakephp/lib/Cake/View/View.php(418): View->_renderElement('/var/www/html/c...', Array, Array)
+#3 /var/www/html/cakephp/app/View/Layouts/default.ctp(28): View->element('header')
+#4 /var/www/html/cakephp/lib/Cake/View/View.php(971): include('/var/www/html/c...')
+#5 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#6 /var/www/html/cakephp/lib/Cake/View/View.php(546): View->_render('/var/www/html/c...')
+#7 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('<!DOCTYPE html>...', 'default')
+#8 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'default')
+#9 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#10 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SinhviensController), Object(CakeRequest))
+#11 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2019-09-25 15:51:40 Error: Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+2019-09-25 15:51:40 Error: [FatalErrorException] Exception thrown without a stack frame
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /var/www/html/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-09-25 15:53:58 Error: [ParseError] syntax error, unexpected '?>', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(1224): View->_render('/var/www/html/c...', Array)
+#2 /var/www/html/cakephp/lib/Cake/View/View.php(418): View->_renderElement('/var/www/html/c...', Array, Array)
+#3 /var/www/html/cakephp/app/View/Layouts/default.ctp(28): View->element('header')
+#4 /var/www/html/cakephp/lib/Cake/View/View.php(971): include('/var/www/html/c...')
+#5 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#6 /var/www/html/cakephp/lib/Cake/View/View.php(546): View->_render('/var/www/html/c...')
+#7 /var/www/html/cakephp/lib/Cake/View/View.php(481): View->renderLayout('<!DOCTYPE html>...', 'default')
+#8 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'default')
+#9 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#10 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SinhviensController), Object(CakeRequest))
+#11 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2019-09-25 15:53:58 Error: Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+2019-09-25 15:53:58 Error: [FatalErrorException] Exception thrown without a stack frame
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /var/www/html/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-09-25 15:55:35 Error: Fatal Error (64): Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in [/var/www/html/cakephp/app/View/Elements/header.ctp, line 16]
+2019-09-25 15:55:35 Error: [FatalErrorException] Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'Cannot use isse...', '/var/www/html/c...', 16)
+#1 /var/www/html/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'Cannot use isse...', '/var/www/html/c...', 16, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-09-25 15:55:55 Error: Fatal Error (64): Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in [/var/www/html/cakephp/app/View/Elements/header.ctp, line 16]
+2019-09-25 15:55:55 Error: [FatalErrorException] Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+Request URL: /cakephp/sinhviens/index/admin:1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'Cannot use isse...', '/var/www/html/c...', 16)
+#1 /var/www/html/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'Cannot use isse...', '/var/www/html/c...', 16, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-09-25 16:01:52 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/user/logout
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-09-25 16:02:08 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/user/logout
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-09-25 16:02:08 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/user/logout
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-09-25 16:02:08 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/user/logout
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-09-25 16:02:25 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/user/logout
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-09-25 16:02:30 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/user/logout
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-09-25 16:02:32 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/user/logout
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-09-25 16:02:32 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/user/logout
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-09-25 16:02:33 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/user/logout
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-09-25 16:03:07 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/user/logout
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-09-25 16:03:07 Error: Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+2019-09-25 16:03:07 Error: [FatalErrorException] Exception thrown without a stack frame
+Request URL: /cakephp/user/logout
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /var/www/html/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-09-25 16:03:08 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/user/logout
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-09-25 16:03:08 Error: Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+2019-09-25 16:03:08 Error: [FatalErrorException] Exception thrown without a stack frame
+Request URL: /cakephp/user/logout
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /var/www/html/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-09-25 16:03:08 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/user/logout
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-09-25 16:03:08 Error: Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+2019-09-25 16:03:08 Error: [FatalErrorException] Exception thrown without a stack frame
+Request URL: /cakephp/user/logout
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /var/www/html/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-09-25 16:03:13 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/user/logout
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
