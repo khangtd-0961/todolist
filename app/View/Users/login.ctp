@@ -12,8 +12,8 @@
 <body>
 
 <div class="container">
-  <?php echo $this->Session->flash();?>
- <?php echo $this->Form->create();?>
+	<?php echo $this->Flash->render('auth'); ?>
+	<?php echo $this->Form->create('User'); ?>
  <fieldset style="border:1px solid black; margin:20px; padding:20px;">
     <h1 style="text-align: center;">Login</h1>
  <div class="form-group">

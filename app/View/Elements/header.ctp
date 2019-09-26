@@ -6,6 +6,11 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" style="color:black;" href="<?php echo $this->Html->url(array('controller' =>  'sinhviens' , 'action' => 'index' ));?>"> Sinh vien</a>
+
+      </li>
+		<li class="nav-item">
+			<a class="nav-link" style="color:black;" href="<?php echo $this->Html->url(array('controller' =>  'users' , 'action' => 'index' ));?>"> User</a>
+
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">

@@ -49,6 +49,10 @@ class AppController extends Controller {
         );
         public function beforeFilter()
 		{
+			parent::beforeFilter();
+			$this->Auth->allow();
+			Security::setHash("md5");//mã hóa password là md5
+			$this->set('current_user', $this->Auth->user());//sau khi đăng nhập thành công biến current_user là thông tin user đăng nhập
         if($this->params['prefix'] == "admin"){
         if($this->Auth->loggedIn()){
         $this->Auth->allow();
@@ -68,7 +72,7 @@ class AppController extends Controller {
 //					unset($this->request->data['User']['username']);
 //				}
 //			}
-		
+
 	function isAuthorized()
 	{
 		return true;
