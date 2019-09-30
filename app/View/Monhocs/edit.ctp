@@ -16,15 +16,15 @@
 	<!-- app/View/Users/add.ctp -->
 	<?php echo $this->Form->create(array('id'=>'appForm', 'inputDefaults'=>array('label'=>false, 'div'=>false))); ?>
 	<div class="form-group">
-		<label>Ma mon Hoc</label>
+		<label>Ma Mon Hoc</label>
 		<?php echo $this->Form->input('mamonhoc', array('class'=>'form-control')); ?>
 	</div>
 	<div class="form-group">
-		<label>Ten Lop</label><br />
+		<label>Phong Hoc</label><br />
 		<?php echo $this->Form->input('tenlop', array('class'=>'form-control')); ?>
 	</div>
 	<button id="linkUpdate" type="submit" class="btn btn-success">Save</button>
-	<?php echo $this->Form->end();?>	
+	<?php echo $this->Form->end();?>
 <?php echo $this->Form->end();?>
 </body>
 </html>
