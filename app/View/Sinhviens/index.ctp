@@ -11,8 +11,13 @@
 </head>
 <body>
 <div class="container">
-    <h1>Quan LY Sinh Vien</h1>     
-       
+    <h1>Quan LY Sinh Vien</h1>
+	<?php echo $this->Form->create('Sinhvien',array('url'=>'search'));?>
+	<?php
+	echo $this->Form->input('masinhvien');
+	echo $this->Form->submit('Search');
+	?>
+	<?php echo $this->Form->end();?>
   <table class="table">
 
   <button type="button" class="btn btn-success"><a href="<?php echo $this->Html->url(array('controller' => 'sinhviens', 'action' => 'add')); ?>">Link to action</a></button>
@@ -20,10 +25,11 @@
       <tr>
         <th>ID</th>
         <th>Ma sinh vien</th>
-        <th>Mam lop</th>
+        <th>Ma lop</th>
         <th>Ten</th>
         <th>Ngay Sinh</th>
         <th>Gioi tinh</th>
+        <th>Ten Lop</th>
         <th></th>
         <th></th>
         <th></th>
@@ -32,19 +38,26 @@
     </thead>
     <tbody>
     <tr>
-        <?php foreach($sinhvien as $rows): ?>
-            
-                <td><?php echo $rows['Sinhvien']['id']; ?></td>
+        <?php foreach($khang as $rows): ?>
+				<?php
+				print_r("<br>");
+				var_dump($rows);
+				print_r("<br>");?>
+
+
+				<td><?php echo $rows['Sinhvien']['id']; ?></td>
                 <td><?php echo $rows['Sinhvien']['masinhvien']; ?></td>
                 <td><?php echo $rows['Sinhvien']['malop']; ?></td>
                 <td><?php echo $rows['Sinhvien']['ten']; ?></td>
                 <td><?php echo $rows['Sinhvien']['ngaysinh']; ?></td>
-                <td><?php echo $rows['Sinhvien']['gioitinh']; ?></td>  
+                <td><?php echo $rows['Sinhvien']['gioitinh']; ?></td>
+				<td><?php echo $rows['Lop']['tenlop']; ?></td>
+				<td><?php echo $rows['Lop']['tenlop']; ?></td>
         <td>
             <?php
                 echo $this->Html->link(
                     $rows['Sinhvien']['masinhvien'],
-                    array('action' => 'view', $rows['Sinhvien']['id'])
+                    array('action' => 'view', $rows['Sinhvien']['masinhvien'])
                 );
             ?>
         </td>
@@ -52,7 +65,7 @@
             <?php
                 echo $this->Html->link(
                     'Edit',
-                    array('action' => 'edit', $rows['Sinhvien']['id'])
+                    array('action' => 'edit', $rows['Sinhvien']['masinhvien'])
                 );
             ?>
         </td>
@@ -60,7 +73,7 @@
             <?php
                 echo $this->Form->postLink(
                     'Delete',
-                    array('action' => 'delete', $rows['Sinhvien']['id']),
+                    array('action' => 'delete', $rows['Sinhvien']['masinhvien']),
                     array('confirm' => 'Are you sure?')
                 );
             ?>

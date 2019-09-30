@@ -31,7 +31,7 @@
 		<tbody>
 		<tr>
 			<?php foreach($diem as $rows): ?>
-
+				<?php var_dump($diem);?>
 			<td><?php echo $rows['Diem']['id']; ?></td>
 			<td><?php echo $rows['Diem']['mamonhoc']; ?></td>
 			<td><?php echo $rows['Diem']['masinhvien']; ?></td>

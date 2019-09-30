@@ -20,7 +20,7 @@
 		<tr>
 			<th>ID</th>
 			<th>Ma Mon Hoc</th>
-			<th>Lop Hoc</th>
+			<th>Phong Hoc</th>
 			<th></th>
 			<th></th>
 			<th></th>
@@ -33,7 +33,7 @@
 
 			<td><?php echo $rows['Monhoc']['id']; ?></td>
 			<td><?php echo $rows['Monhoc']['mamonhoc']; ?></td>
-			<td><?php echo $rows['Monhoc']['tenlop']; ?></td>
+			<td><?php echo $rows['Monhoc']['phonghoc']; ?></td>
 			<td>
 				<?php
 				echo $this->Html->link(

@@ -20,7 +20,7 @@
 		<?php echo $this->Form->input('mamonhoc', array('class'=>'form-control')); ?>
 	</div>
 	<div class="form-group">
-		<label>Ten Lop</label><br />
+		<label>Phong Hoc</label><br />
 		<?php echo $this->Form->input('tenlop', array('class'=>'form-control')); ?>
 	</div>
 	<button id="linkUpdate" type="submit" class="btn btn-success">Save</button>

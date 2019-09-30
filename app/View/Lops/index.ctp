@@ -30,7 +30,11 @@
 		<tbody>
 		<tr>
 			<?php foreach($lop as $rows): ?>
-
+				<?php
+				print "<br>";
+				var_dump($lop);
+				print "<br>";
+				?>
 			<td><?php echo $rows['Lop']['id']; ?></td>
 			<td><?php echo $rows['Lop']['malop']; ?></td>
 			<td><?php echo $rows['Lop']['tenlop']; ?></td>
