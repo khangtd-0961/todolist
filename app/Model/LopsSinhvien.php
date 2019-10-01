@@ -1,12 +1,12 @@
 <?php
 App::uses('AppModel', 'Model');
 /**
- * Diem Model
+ * LopsSinhvien Model
  *
+ * @property Lop $Lop
  * @property Sinhvien $Sinhvien
- * @property Monhoc $Monhoc
  */
-class Diem extends AppModel {
+class LopsSinhvien extends AppModel {
 
 
 	// The Associations below have been created with all possible keys, those that are not needed can be removed
@@ -17,16 +17,16 @@ class Diem extends AppModel {
  * @var array
  */
 	public $belongsTo = array(
-		'Sinhvien' => array(
-			'className' => 'Sinhvien',
-			'foreignKey' => 'sinhvien_id',
+		'Lop' => array(
+			'className' => 'Lop',
+			'foreignKey' => 'lop_id',
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''
 		),
-		'Monhoc' => array(
-			'className' => 'Monhoc',
-			'foreignKey' => 'monhoc_id',
+		'Sinhvien' => array(
+			'className' => 'Sinhvien',
+			'foreignKey' => 'sinhvien_id',
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''

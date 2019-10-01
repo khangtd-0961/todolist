@@ -13,26 +13,22 @@
 //					'alias' => 'Diem',
 //					'foreignKey' => 'masinhvien',
 //					'type' => 'inner',
-//					'conditions' => array(
-//						'Sinhvien.masinhvien = Diem.masinhvien',
-//					), array('table' => 'monhocs',
-//					'alias' => 'Monhoc',
+//					'conditions' => array('Sinhvien.id = Diem.sinhvien_id'),
+//				),
+//		array('table' => 'monhocs',
+//				'alias' => 'Monhoc',
 //					'type' => 'inner',
-//					'conditions' => array(
-//						'Diem.mamonhoc= Monhoc.mamonhoc'
-//					)
-//				)
-//				)
+//					'conditions' => array('Diem.monhoc_id = Monhoc.id'),
+//				),
 //			);
-//			$this->Sinhvien->recursive = 3;
-//			$this->set('khang',$this->Sinhvien->find('all', $options));
-			$this->paginate = array(
-				'limit' => 4,// mỗi page có 4 record
-				'order' => array('id' => 'desc'),//giảm dần theo id
-			);
-			$data = $this->paginate("Sinhvien");
-
-			$this->set("khang",$data);
+//			$this->Sinhvien->recursive = 2;
+//			$this->set('khang',$this->Sinhvien->find('all'));
+//			$this->paginate = array(
+//				'limit' => 4,// mỗi page có 4 record
+//				'order' => array('id' => 'desc'),//giảm dần theo id
+//			);
+//			$data = $this->paginate("Sinhvien");
+			$this->set("khang",$this->Sinhvien->find('all'));
         }
         public function add() {
             if ($this->request->is('post')) {
